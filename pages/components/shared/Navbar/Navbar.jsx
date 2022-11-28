@@ -26,7 +26,6 @@ const Navbar = () => {
             width={75}
             height={75}
           />
-          
         </div>
         <div className="flex justify-center items-center text-center ">
           <ul>
@@ -38,32 +37,42 @@ const Navbar = () => {
               }`}
             >
               <div className="flex items-center  justify-center my-2 md:hidden border-b-2">
-                <FiSearch className="text-black w-6 h-6" />
+                <FiSearch className="text-black w-6 h-6 dark:text-white hover:text-fuchsia-600 dark:hover:text-fuchsia-600" />
                 <Link
                   href="/"
-                  className="text-black text-xl leading-6 font-medium tracking-wide ml-1 my-3 hover:custom-text "
+                  className="text-black text-xl leading-6 font-medium tracking-wide ml-1 my-3 hover:text-fuchsia-600 dark:text-white dark:hover:text-fuchsia-600"
                 >
                   Search
                 </Link>
               </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link href="/">Home</Link>
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
+                <Link
+                  href="/"
+                  className="hover:text-fuchsia-600 text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4 dark:text-white dark:hover:text-fuchsia-600"
+                >
+                  Home
+                </Link>
               </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link href="/nft">NFTs</Link>
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
+                <Link
+                  href="/nft"
+                  className="hover:text-fuchsia-600 text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4 dark:text-white dark:hover:text-fuchsia-600"
+                >
+                  NFTs
+                </Link>
               </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
                 <Link
                   href="/member"
-                  className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
+                  className="hover:text-fuchsia-600 text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4 dark:text-white dark:hover:text-fuchsia-600"
                 >
                   Member
                 </Link>
               </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
                 <Link
                   href="/events"
-                  className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
+                  className="hover:text-fuchsia-600 text-xl leading-6 font-medium tracking-wide my-3 md:mx-1 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4 dark:text-white dark:hover:text-fuchsia-600"
                 >
                   Events
                 </Link>
@@ -71,7 +80,7 @@ const Navbar = () => {
               <div className="text-xl leading-6 font-medium tracking-wide mx-3 my-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
                 <Link
                   href="/"
-                  className="text-xl leading-6 font-medium tracking-wide mx-3 my-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
+                  className="hover:text-fuchsia-600 text-xl leading-6 font-medium tracking-wide mx-3 my-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4 dark:text-white dark:hover:text-fuchsia-600"
                 >
                   Desires
                 </Link>
