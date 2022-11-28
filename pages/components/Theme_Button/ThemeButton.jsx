@@ -1,20 +1,17 @@
 import React from "react";
 import { useTheme } from "next-themes";
-
+import { TiLightbulb } from "react-icons/ti";
 const ThemeButton = () => {
   const { theme, setTheme } = useTheme();
   console.log(theme);
   return (
     <div>
-      <button
-        className="text-xl bg-red-400 px-3 ml-2 py-2 rounded-lg"
+      <TiLightbulb className="md:w-8 md:h-8 ml-1"
         onClick={() => {
           setTheme(theme === "dark" ? "light" : "dark");
         }}
-      >
-        
-        {theme === "dark" ? "light" : "dark"}
-      </button>
+      />
+      {theme === TiLightbulb ? "light" : TiLightbulb}
     </div>
   );
 };

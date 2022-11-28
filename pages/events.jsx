@@ -1,8 +1,8 @@
 import React from "react";
 import SingleEvent from "./components/SingleEvent/SingleEvent";
-import { FiArrowLeft, FiArrowRight, FiMapPin } from "react-icons/fi";
+import { FiArrowLeft, FiArrowRight, FiCalendar, FiMapPin } from "react-icons/fi";
 import { BiCaretDown, BiMenuAltLeft } from "react-icons/bi";
-import { HiOutlineChevronLeft } from "react-icons/hi";
+import { FaLessThanEqual } from "react-icons/fa";
 
 // EventData
 const EventDatas = [
@@ -178,27 +178,28 @@ const Events = () => {
               </h1>
               <input
                 type="text"
-                className="placeholder:text-fuchsia-600 placeholder:font-normal placeholder:leading-4 placeholder:tracking-wide   form-control  w-full ml-1 px-16 md:px-20 py-1.5 text-base font-normal  bg-white border border-gray-300  outline-none dark:bg-black dark:placeholder:text-white"
+                className="placeholder:text-fuchsia-600 placeholder:font-normal form-control w-full ml-1 pr-16 px-2 md:px-3 md:pr-36 py-1.5 text-base font-normal  bg-white border border-gray-300  outline-none dark:bg-black dark:placeholder:text-white"
                 placeholder="San Diago, California, US"
               />
             </div>
-            <FiMapPin className="relative top-2 left-[350px] md:top-[-1px] md:left-[410px] text-fuchsia-600" />
+            <FiMapPin className="relative top-2 left-[290px]  md:top-[-1px] md:left-[410px] text-fuchsia-600" />
             <div className="flex items-center mx-4 mt-10 md:mt-0 md:ml-[430px]">
               <h2 className="text-xs md:text-lg font-normal leading-4 md:leading-6 tracking-wide">
                 Date:
               </h2>
               <input
-                type="date"
-                className="form-control  w-11/12 ml-6 px-2 md:px-36 py-1.5 text-base font-normal bg-white border border-gray-300 outline-none dark:bg-black dark:placeholder:text-white "
+                type="text"
+                className="placeholder:text-fuchsia-600 placeholder:font-normal form-control w-full ml-1 pr-16 px-2 md:px-3 md:pr-36 py-1.5 text-base font-normal  bg-white border border-gray-300  outline-none dark:bg-black dark:placeholder:text-white"
                 placeholder="04.30.2022 - 05.06.2022"
               />
             </div>
+            <FiCalendar className="relative top-[-30px] left-[290px]  md:top-[-1px] md:left-[-80px] text-fuchsia-600" />
             <div className="flex items-center mx-4">
               <h1 className="text-xs md:text-lg font-normal leading-4 md:leading-6 tracking-wide">
                 Distance:
               </h1>
               <div className="wrapper">
-                <p className="text-fuchsia-600 text-xs md:text-lg font-normal leading-4 md:leading-6 tracking-wide ml-28">
+                <p className="text-fuchsia-600 text-xs md:text-lg font-normal leading-4 md:leading-6 tracking-wide ml-28 dark:text-white">
                   15-170(km)
                 </p>
                 <div className="container flex">
@@ -220,12 +221,12 @@ const Events = () => {
                 </div>
                 <div className="flex items-center justify-between gray-text ">
                   <div className="flex items-center">
-                    <HiOutlineChevronLeft />
-                    <p className="text-sm font-normal leading-4 tracking-wider">
+                    <FaLessThanEqual className="dark:text-white" />
+                    <p className="text-sm font-normal leading-4 tracking-wider dark:text-white">
                       1km
                     </p>
                   </div>
-                  <p className="text-sm font-normal leading-4 tracking-wider ml-48">
+                  <p className="text-sm font-normal leading-4 tracking-wider ml-48 dark:text-white">
                     200km
                   </p>
                 </div>

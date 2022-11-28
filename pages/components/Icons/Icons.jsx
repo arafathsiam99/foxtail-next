@@ -19,7 +19,7 @@ const Icons = () => {
         </li>
         <div className="h-[30px] bg-gray-400 w-[2px] mx-5 md:block hidden"></div>
         <li className="md:mx-5">
-          <button className="font-medium text-xs  md:text-lg md:leading-5 tracking-wide create-btn py-2 px-6  md:px-4 rounded-md flex items-center">
+          <button className="font-medium text-xs  md:text-lg md:leading-5 tracking-wide create-btn py-2 px-2 ml-1  md:px-4 rounded-md flex items-center">
             Create
             <FiPlus className="w-4 h-4 md:w-5 md:h-5 ml-2" />
           </button>
