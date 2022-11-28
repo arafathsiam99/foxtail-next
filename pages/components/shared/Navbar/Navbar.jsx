@@ -43,32 +43,27 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link href="/">Home</Link>
-              </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link href="/nft">NFTs</Link>
-              </div>
-              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link
-                  href="/member"
-                  className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
-                >
-                  Member
+                <Link href="/" className="hover:text-fuchsia-500">
+                  Home
                 </Link>
               </div>
               <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link
-                  href="/events"
-                  className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
-                >
+                <Link href="/nft" className="hover:text-fuchsia-500">
+                  NFTs
+                </Link>
+              </div>
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0  pb-4">
+                <Link href="/member" className=" hover:text-fuchsia-500">
+                  Member
+                </Link>
+              </div>
+              <div className="text-xl leading-6 font-medium tracking-wide my-3 md:mx-3 md:my-0 border-b-2 md:border-b-0  pb-4">
+                <Link href="/events" className="hover:text-fuchsia-500">
                   Events
                 </Link>
               </div>
               <div className="text-xl leading-6 font-medium tracking-wide mx-3 my-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4">
-                <Link
-                  href="/"
-                  className="text-xl leading-6 font-medium tracking-wide mx-3 my-3 md:my-0 border-b-2 md:border-b-0 hover:custom-text pb-4"
-                >
+                <Link href="/" className="hover:text-fuchsia-500">
                   Desires
                 </Link>
               </div>
