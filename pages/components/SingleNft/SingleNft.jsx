@@ -71,15 +71,17 @@ const SingleNft = ({ data }) => {
         <div className="bg-fuchsia-200 h-0.5  mx-4 md:mt-2 dark:bg-fuchsia-800"></div>
         <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
-            <img
+            <Image
               src="https://i.ibb.co/SNZ0Y59/image-4.png"
               alt=""
-              className="w-6 h-5 ml-3"
+              className="ml-3"
+              width={24}
+              height={20}
             />
             <h1 className="text-black font-medium text-3xl mx-1 dark:text-white">
               {data?.price}
             </h1>
-            <h2 className=" font-normal text-sm gray-text dark:text-slate-500 mt-2">
+            <h2 className=" font-normal text-sm gray-text dark:text-white mt-2">
               (${data?.dollar})
             </h2>
           </div>

@@ -63,20 +63,26 @@ const SingleEvent = ({ data }) => {
               </div>
               <div className="flex items-center justify-end mr-5">
                 <div className="flex md:pt-28 md:ml-0  my-2 md:mt-0  -space-x-4">
-                  <img
-                    className="w-10 h-10 md:h-12 md:w-12 rounded-full border-2  md:border-4 dark:border-slate-600"
+                  <Image
+                    className="md:h-12 md:w-12 rounded-full border-2  md:border-4 dark:border-slate-600"
                     src="https://i.ibb.co/z4gB1Np/2a11d7dbd8f19d0fda66fb08908bd2ec-Expires-1668384000-Signature-P0-RD1-eygjg-FSEf30-P-l-Vgstv-Im-Eaz-E.png"
                     alt=""
+                    height={40}
+                    width={40}
                   />
-                  <img
-                    className="w-10 h-10 md:h-12 md:w-12  rounded-full border-2   md:border-4 dark:border-slate-600"
+                  <Image
+                    className="md:h-12 md:w-12  rounded-full border-2   md:border-4 dark:border-slate-600"
                     src="https://i.ibb.co/z4gB1Np/2a11d7dbd8f19d0fda66fb08908bd2ec-Expires-1668384000-Signature-P0-RD1-eygjg-FSEf30-P-l-Vgstv-Im-Eaz-E.png"
                     alt=""
+                    height={40}
+                    width={40}
                   />
-                  <img
-                    className="w-10 h-10 md:h-12 md:w-12 rounded-full border-2   md:border-4 dark:border-slate-600"
+                  <Image
+                    className="md:h-12 md:w-12 rounded-full border-2   md:border-4 dark:border-slate-600"
                     src="https://i.ibb.co/BCvByzK/ff7296334f7d23c8d90b72606f23624d-Expires-1668384000-Signature-EIizidt-Hm-Qo8zmv-MCZM3dd-Bhr-9-Whc-Ww.jpg"
                     alt=""
+                    height={40}
+                    width={40}
                   />
                 </div>
                 <h1 className="font-medium text-xs ml-1 md:text-base md:leading-5 leading-3 tracking-wide md:mt-24 md:ml-2 dark:text-white">

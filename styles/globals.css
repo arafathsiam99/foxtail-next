@@ -130,8 +130,7 @@ input[type="range"]::active::-webkit-slider-thumb {
 
 
 
- /* 
- @media (prefers-color-scheme: dark) {
+ /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -139,5 +138,4 @@ input[type="range"]::active::-webkit-slider-thumb {
     color: white;
     background-image: linear-gradient(to right, #E500F8 0%, #7100F0 100%);
   }
-} 
-*/
+}  */

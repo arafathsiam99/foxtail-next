@@ -5,6 +5,7 @@ import { AiFillStar } from "react-icons/ai";
 import { FiUpload } from "react-icons/fi";
 import { TbItalic, TbUnderline, TbLetterB } from "react-icons/tb";
 import { CgChevronDown } from "react-icons/cg";
+import Image from "next/image";
 
 const AccountInfo = () => {
   return (
@@ -17,7 +18,7 @@ const AccountInfo = () => {
           <ProfileIncomplete />
           <div className="border-2  mt-5">
             <div className="flex">
-              <img
+              <Image
                 src="https://i.ibb.co/s6073KS/Rectangle-129.png"
                 alt=""
                 className="ml-5 mt-5"

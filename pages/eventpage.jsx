@@ -4,6 +4,7 @@ import { CiLocationOn, CiCalendar } from "react-icons/ci";
 import { BiMessageDots } from "react-icons/bi";
 import BuyNow from "./components/BuyNow/BuyNow";
 import SingleEvent from "./components/SingleEvent/SingleEvent";
+import Image from "next/image";
 
 const EventPage = () => {
   return (
@@ -17,7 +18,7 @@ const EventPage = () => {
       </h3>
       <div className="grid md:grid-cols-3">
         <div className="relative col-span-2 md:ml-14 md:mr-28 mx-4">
-          <img
+          <Image
             src="https://i.ibb.co/r3tbMmR/image-2.png"
             alt=""
             className="w-full h-full "
@@ -102,10 +103,11 @@ const EventPage = () => {
         </div>
         <div className="border-2 px-3">
           <h1 className="text-lg font-medium py-2">Map View</h1>
-          <img
+          <Image
             src="https://i.ibb.co/wYxpqP9/Rectangle-116.png"
             alt=""
-            className="w-full h-[400px] mb-4"
+            className="w-full mb-4"
+            height={400}
           />
         </div>
       </div>
@@ -113,12 +115,12 @@ const EventPage = () => {
         <div className="border-2 px-3 col-span-2">
           <h1 className="text-xl font-medium py-2">Gallery</h1>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 py-3">
-            <img src="https://i.ibb.co/mDVBzpL/Rectangle-140.png" alt="" />
-            <img src="https://i.ibb.co/Wxg1c5Q/Rectangle-141.png" alt="" />
-            <img src="https://i.ibb.co/9bKT4z2/Rectangle-142.png" alt="" />
-            <img src="https://i.ibb.co/PczpTbR/Rectangle-143.png" alt="" />
-            <img src="https://i.ibb.co/VBYPLYL/Rectangle-144.png" alt="" />
-            <img src="https://i.ibb.co/SPXcF5k/Rectangle-145.png" alt="" />
+            <Image src="https://i.ibb.co/mDVBzpL/Rectangle-140.png" alt="" />
+            <Image src="https://i.ibb.co/Wxg1c5Q/Rectangle-141.png" alt="" />
+            <Image src="https://i.ibb.co/9bKT4z2/Rectangle-142.png" alt="" />
+            <Image src="https://i.ibb.co/PczpTbR/Rectangle-143.png" alt="" />
+            <Image src="https://i.ibb.co/VBYPLYL/Rectangle-144.png" alt="" />
+            <Image src="https://i.ibb.co/SPXcF5k/Rectangle-145.png" alt="" />
           </div>
         </div>
         <div className="border-2 px-3">
@@ -126,7 +128,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center ">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/FY8QdCM/Ellipse-43-1.png"
                   alt="Bordered avatar"
@@ -142,7 +144,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/6mPZvxb/Ellipse-43-2.png"
                   alt="Bordered avatar"
@@ -158,7 +160,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/vVpBJZW/Ellipse-43-3.png"
                   alt="Bordered avatar"
@@ -174,7 +176,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/L5T9dVh/Ellipse-43-4.png"
                   alt="Bordered avatar"
@@ -190,7 +192,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/V9Y5VPz/Ellipse-43-5.png"
                   alt="Bordered avatar"
@@ -206,7 +208,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/chhWFXk/Ellipse-43-6.png"
                   alt="Bordered avatar"
@@ -222,7 +224,7 @@ const EventPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="relative">
-                <img
+                <Image
                   className="p-1 w-12 h-12 rounded-full relative"
                   src="https://i.ibb.co/k66ZZzg/Ellipse-43-7.png"
                   alt="Bordered avatar"
@@ -241,7 +243,7 @@ const EventPage = () => {
         <h1 className="font-medium text-lg ">Comments</h1>
         <div className="flex py-2 items-center">
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/NSzs8Hw/Ellipse-43.png"
               alt=""
               className="w-8 h-8"
@@ -261,7 +263,7 @@ const EventPage = () => {
         </p>
         <div className="flex py-2 items-center">
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/NSzs8Hw/Ellipse-43.png"
               alt=""
               className="w-8 h-8"

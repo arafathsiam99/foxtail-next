@@ -45,8 +45,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Make Profile Public
                 </h3>
               </label>
@@ -60,8 +60,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Show My Profile
                 </h3>
               </label>
@@ -75,8 +75,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Distance Metric <span className="text-xs">KM/Mile</span>
                 </h3>
               </label>
@@ -92,8 +92,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Recieve Email
                 </h3>
               </label>
@@ -107,8 +107,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Show Me Online
                 </h3>
               </label>
@@ -122,8 +122,8 @@ const AppSetting = () => {
                   id="toggle"
                   className="sr-only peer"
                 />
-                <div class="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
+                <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                   Visible to Like Only
                 </h3>
               </label>

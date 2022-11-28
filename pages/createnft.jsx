@@ -5,6 +5,7 @@ import { BiCaretDown } from "react-icons/bi";
 import { VscAdd } from "react-icons/vsc";
 import { MdFormatItalic } from "react-icons/md";
 import SingleNft1 from "./components/SingleNft/SingleNft1";
+import Image from "next/image";
 
 const CreateNft = () => {
   return (
@@ -116,10 +117,12 @@ const CreateNft = () => {
                   required=""
                 />
                 <div className="flex itmes-center justify-between">
-                  <img
+                  <Image
                     src="https://i.ibb.co/TmH6qfh/rsz-2d0dbcbff37dac3ebd093f05b6dee7cf-expires-1668384000-signature-rfzlm-lm50m-xb-ppga-1-fa6joo04d-mm.png"
                     alt=""
-                    className="w-5 h-5 absolute top-14 ml-2"
+                    className="absolute top-14 ml-2"
+                    width={20}
+                    height={20}
                   />
                   <button
                     type="button"

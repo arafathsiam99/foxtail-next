@@ -4,6 +4,7 @@ import { BiMessageAltDots } from "react-icons/bi";
 import { TbBell } from "react-icons/tb";
 import { RiArrowDropDownFill } from "react-icons/ri";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 const ThemeButton = dynamic(
   () => import("../../components/Theme_Button/ThemeButton"),
   { ssr: false }
@@ -61,10 +62,12 @@ const Icons = () => {
           <div className="md:flex justify-center  hidden">
             <div>
               <div className="border-2 flex items-center py-2 px-3 rounded-sm justify-center relative ml-4">
-                <img
-                  className="w-[20px] h-[20px] rounded-full ring-2 ring-gray-300 dark:ring-violet-500"
+                <Image
+                  className="rounded-full ring-2 ring-gray-300 dark:ring-violet-500"
                   src="https://i.ibb.co/02Rn9g0/fe4f29a38707617f19db951e686aeb22.png"
                   alt="Bordered avatar"
+                  height={20}
+                  width={20}
                 />
                 <RiArrowDropDownFill className="h-6 w-6" />
               </div>

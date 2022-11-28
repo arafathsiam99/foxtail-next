@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { FiUpload } from "react-icons/fi";
 import MyProfile from '../../components/MyProfile/MyProfile';
@@ -43,9 +44,9 @@ const MyGallery = () => {
               </div>
               <h1 className="font-normal text-xl leading-7 tracking-wide mt-6 mb-3">Gallery</h1>
               <div className="grid md:grid-cols-3 ">
-                <img src="https://i.ibb.co/1s6PtFd/Rectangle-134.png" alt="" />
-                <img src="https://i.ibb.co/KGbdMTP/Rectangle-135.png" alt="" />
-                <img src="https://i.ibb.co/V2nP6xg/Rectangle-136.png" alt="" />
+                <Image src="https://i.ibb.co/1s6PtFd/Rectangle-134.png" alt="" />
+                <Image src="https://i.ibb.co/KGbdMTP/Rectangle-135.png" alt="" />
+                <Image src="https://i.ibb.co/V2nP6xg/Rectangle-136.png" alt="" />
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const EventDatas = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 1,
   },
 ];
@@ -24,7 +24,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 1,
   },
   {
@@ -33,7 +33,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 2,
   },
   {
@@ -42,7 +42,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 3,
   },
   {
@@ -51,7 +51,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 4,
   },
   {
@@ -60,7 +60,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 5,
   },
   {
@@ -69,7 +69,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 6,
   },
   {
@@ -78,7 +78,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+    ticketPrice: "99.00",
     id: 7,
   },
   {
@@ -87,7 +87,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+   ticketPrice: "99.00",
     id: 8,
   },
   {
@@ -96,7 +96,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+   ticketPrice: "99.00",
     id: 9,
   },
   {
@@ -105,7 +105,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+   ticketPrice: "99.00",
     id: 10,
   },
   {
@@ -114,7 +114,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+   ticketPrice: "99.00",
     id: 11,
   },
   {
@@ -123,7 +123,7 @@ const EventDatas1 = [
     address: "18 Dynahost Street, 02 No Appartment, Texas, USA",
     date: "21.12.2022",
     time: "04.30pm",
-    ticketPrice: "$99.00",
+   ticketPrice: "99.00",
     id: 12,
   },
 ];

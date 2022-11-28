@@ -1,7 +1,6 @@
 import React from "react";
 
-const Link = (props) => {
-  const { name, link } = props.route;
+const Link = ({ name, link } ) => {
   return (
     <div>
       <li className="mx-5">

@@ -39,7 +39,7 @@ const AccountSetting = () => {
                       className="sr-only peer"
                     />
                     <div className="w-12 h-6 bg-gray-300 peer-focus:outline-none   rounded-full  peer-checked:after:translate-x-full  after:content-[''] after:absolute after:top-[3px] after:left-[3px] after:bg-gray-500 after:border-gray-500 after:border after:rounded-full after:h-5 after:w-5 after:transition-all "></div>
-                    <h3 class="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
+                    <h3 className="ml-3 text-xl	font-normal	 leading-7	tracking-wide	">
                       Set Password
                     </h3>
                   </label>

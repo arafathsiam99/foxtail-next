@@ -193,7 +193,7 @@ const CreateEvent = () => {
                   checked
                 />
                 <label
-                  class="form-check-label inline-block text-gray-800"
+                  className="form-check-label inline-block text-gray-800"
                   for="flexRadioDefault1"
                 >
                   Public
@@ -201,13 +201,13 @@ const CreateEvent = () => {
               </div>
               <div className="form-check ">
                 <input
-                  class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-black checked:border-black transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                  className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-black checked:border-black transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                   type="radio"
                   name="flexRadioDefault"
                   id="private"
                 />
                 <label
-                  class="form-check-label inline-block text-gray-800"
+                  className="form-check-label inline-block text-gray-800"
                   for="flexRadioDefault2"
                 >
                   Private

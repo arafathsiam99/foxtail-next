@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 
 const Curburit = () => {
   return (
@@ -8,25 +10,29 @@ const Curburit = () => {
           <h1 className="text-2xl">Curabitur suscipit</h1>
         </div>
         <div className="flex">
-          <img
+          <Image
             src="https://i.ibb.co/JFFDtN2/Frame-413.png"
             alt=""
-            className="w-8 h-8"
+           height={32}
+            width={32}
           />
-          <img
+          <Image
             src="https://i.ibb.co/2qJDWrX/Frame-412.png"
             alt=""
-            className="w-8 h-8"
+            height={32}
+            width={32}
           />
-          <img
+          <Image
             src="https://i.ibb.co/JFc5zv8/Frame-411.png"
             alt=""
-            className="w-8 h-8"
+            height={32}
+            width={32}
           />
-          <img
+          <Image
             src="https://i.ibb.co/Tg2K5kn/Frame-410.png"
             alt=""
-            className="w-8 h-8"
+            height={32}
+            width={32}
           />
         </div>
       </div>
